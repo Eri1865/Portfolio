@@ -1,0 +1,24 @@
+body{
+
+    background-color: #8971c2e7;
+    color: #c6e4e2;
+}
+body{
+padding: 20px;
+font-family: sans-serif;
+}
+
+
+h2, p {
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
